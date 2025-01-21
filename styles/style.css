@@ -90,3 +90,72 @@ header,main{
     border-radius:12px;
     padding: 10px 47px;
 }
+
+/* main */
+main{
+    margin-top: 60px;
+    background-image: url(assets/bg.png);
+}
+.sec-1 h2{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #000000;
+    font-size: 46px;
+    font-weight: bold;
+}
+.sec-1 .cards{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 28px;
+}
+.card{
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+   
+    border-radius: 18.86px;
+    padding: 53px 40.86px;
+}
+.card h4{
+    color: #202020;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card p{
+    color: #808080;
+    font-size: 15.09px;
+    font-weight: 500;
+}
+.btn-1{
+    color: #64C8FF;
+    font-size: 15.09px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+.btn-2{
+    color: #F0AA00;
+    font-size: 15.09px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+.btn-3{
+    color: #8700FF;
+    font-size: 15.09px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+.gra-1{
+    background: linear-gradient(rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40%);
+    /* border: 0.25px solid #64C8FF; */
+}
+.gra-2{
+    background: linear-gradient(rgba(255, 244, 220, 1)0%,rgba(255, 255, 255, 0)40%);
+    /* border: 0.25px solid #F0AA00; */
+}
+.gra-3{
+    background: linear-gradient(rgba(238, 225, 255, 1)0%,rgba(255, 255, 255, 0)40%);
+    /* border: 0.25px solid #8700FF; */
+}
