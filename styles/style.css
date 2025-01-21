@@ -159,3 +159,24 @@ main{
     background: linear-gradient(rgba(238, 225, 255, 1)0%,rgba(255, 255, 255, 0)40%);
     /* border: 0.25px solid #8700FF; */
 }
+
+/* sec-2 */
+.sec-2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.first,.second{
+   /* width: 60px;
+    height: 60px;
+    background-color: #FEA301;
+    border-radius: 50%;*/
+}
+.fa-solid{
+    color:#FFFFFF;
+    background-color: #FEA301;
+    padding:22px 25px;
+    border-radius: 50%;
+    font-size: 24px;
+}
