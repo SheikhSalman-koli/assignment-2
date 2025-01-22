@@ -8,7 +8,7 @@
 }
 
 /* header */
-header,main{
+header,.cards,.parent{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -93,8 +93,14 @@ header,main{
 
 /* main */
 main{
-    margin-top: 60px;
-    background-image: url(assets/bg.png);
+    margin: 60px 0 ;
+   
+   
+}
+.sec-1,.sec-3{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(assets/elementary.png);
 }
 .sec-1 h2{
     text-align: center;
@@ -167,16 +173,96 @@ main{
     justify-content: center;
     column-gap: 10px;
 }
-.first,.second{
-   /* width: 60px;
-    height: 60px;
-    background-color: #FEA301;
-    border-radius: 50%;*/
-}
 .fa-solid{
     color:#FFFFFF;
     background-color: #FEA301;
     padding:22px 25px;
     border-radius: 50%;
     font-size: 24px;
+}
+
+/* .sec-3 */
+.sec-3{
+    margin-top: 60px;
+    background: linear-gradient(to top,rgb(255, 238, 208)0%,rgba(255, 255, 255, 1)100%);
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 19.17px;
+}
+.child-1{
+    grid-row: span 2;
+}
+/* h2 */
+.align-center{
+    text-align: center;
+    margin: 80px 0;
+}
+.child-1{
+    background-color:#FFFFFF;
+    border-radius:0  0 16px 16px;
+}
+.child-1 img{
+    border-radius:16px 16px 0 0;
+}
+.child-1 p,h3{
+    padding: 0 68px 34px 38px;
+}
+.child-1 h3{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.child-1 p{
+    color: #666666;
+    font-size: 15.34px;
+    font-weight: 500;
+}
+
+.child{
+    background-color:#FFFFFF;
+    border-radius:  16px;
+}
+.child img{
+    border-radius:16px 16px 0  0;
+}
+.child h4{
+    color: #000000;
+    font-size: 15.34px;
+    font-weight: bold;
+    padding: 0 54px 33px 37px;
+}
+div>button{
+    color: #FFFFFF;
+    font-size: 15.34px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius:47.93px ;
+    border-style: none;
+    
+}
+.btnn-1{
+    background-color: #3CD8E8;
+}
+.btnn-2{
+    background-color:#95B226 ;
+}
+.btnn-3{
+    background-color:#5D58F0 ;
+}
+.view{
+    display: flex;
+    justify-content: center;
+}
+.view button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color:#111111;
+    border-style: none;
+    border-radius:12px;
+    padding: 10px 47px;
+    margin: 40px 0;
 }
