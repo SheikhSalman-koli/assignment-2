@@ -60,6 +60,9 @@ header,.cards,.parent{
     border-radius:12px;
     padding: 10px 60.5px;
 }
+#bars{
+    display: none;
+}
 /* .banner */
 .banner{
     display: flex;
@@ -311,4 +314,56 @@ footer{
     font-size: 26px;
     font-weight: bold;
 }
-
+@media screen and (max-width:576px) {
+    .logo h2,.navbar ul,.btn{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    .navbar{
+        border-bottom: 1px solid #FEA301;
+    }
+    .texts{
+        text-align: center;
+    }
+    .fa-solid{
+        color:#000000;
+        background-color: #FFFFFF;
+        padding:0px 0px;
+        font-size: 24px;
+    }
+    .sec-2{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .pic img{
+        width: 100%;
+    }
+    .sec-1 .cards{
+        flex-direction: column;
+    }
+    .cards .card{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .parent{
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+    }
+    .parent .child-1{
+        display: none;
+    }
+    .child,.child img{
+        width: 50%;
+    }
+    .cont{
+        padding: 10px 0 30px;
+        flex-direction: column;
+    }
+    .box-1,.box-3 .pictures{
+        padding-left: 15px;
+    }
+}
