@@ -177,6 +177,9 @@ main{
     border-radius: 50%;
     font-size: 24px;
 }
+.fa-solid:hover{
+    background-color: #01ACFD;
+}
 
 /* .sec-3 */
 .sec-3{
@@ -241,10 +244,13 @@ div>button{
     padding: 15px;
     border-radius:47.93px ;
     border-style: none;
-    
+}
+.child-1 div,.child div{
+    margin-left: 35px;
+    margin-top: -30px;
 }
 .btnn-1{
-    background-color: #3CD8E8;
+    background-color: #3CD8E8;   
 }
 .btnn-2{
     background-color:#95B226 ;
@@ -266,7 +272,6 @@ div>button{
     padding: 10px 47px;
     margin: 40px 0;
 }
-
 /* footer */
 footer{
     max-width:  1440px ;
@@ -294,6 +299,9 @@ footer{
     font-size:20px ;
     color: #FFFFFF;
 }
+.box-2 ul{
+    padding-left: 0px;
+}
 .box-2 ul li{
     list-style: none;
     margin-bottom: 20px;
@@ -313,6 +321,7 @@ footer{
     color: #FFFFFF;
     font-size: 26px;
     font-weight: bold;
+    padding: 0px;
 }
 @media screen and (max-width:576px) {
 
@@ -324,6 +333,7 @@ footer{
     }
     .navbar{
         border-bottom: 1px solid #FEA301;
+        padding-bottom: 5px;
     }
     .texts{
         text-align: center;
@@ -346,8 +356,8 @@ footer{
     .sec-1 .cards{
         flex-direction: column;
     }
-    .sec-1,.sec-3{
-        width: 100%;
+    .sec-3{
+        padding: 0 5px;
     }
     .cards .card{
         margin-top: 15px;
@@ -373,15 +383,11 @@ footer{
     .child h4{
         padding: 0 15px 8px 7px;
     }
-    
     .cont{
         padding: 10px 0 30px;
         flex-direction: column;
     }
-    .box-1,.box-3 .pictures{
-        padding-left: 15px;
-    }
-    .box-2{
-        padding-left: 0;
+    .box-1,.box-2 ul,.box-3{
+        padding-left: 5px;
     }
 }
