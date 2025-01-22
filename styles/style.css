@@ -315,6 +315,7 @@ footer{
     font-weight: bold;
 }
 @media screen and (max-width:576px) {
+
     .logo h2,.navbar ul,.btn{
         display: none;
     }
@@ -345,25 +346,42 @@ footer{
     .sec-1 .cards{
         flex-direction: column;
     }
+    .sec-1,.sec-3{
+        width: 100%;
+    }
     .cards .card{
         margin-top: 15px;
-        width: 100%;
+        width: 95%;
+        box-sizing: border-box;
     }
     .parent{
         grid-template-columns: repeat(2,1fr);
-        gap: 8px;
+        column-gap: 8px;
+
     }
     .parent .child-1{
         display: none;
     }
-    .child,.child img{
-        width: 50%;
+    div button{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px;
     }
+    .child,.child img{
+        width: 100%;
+    }
+    .child h4{
+        padding: 0 15px 8px 7px;
+    }
+    
     .cont{
         padding: 10px 0 30px;
         flex-direction: column;
     }
     .box-1,.box-3 .pictures{
         padding-left: 15px;
+    }
+    .box-2{
+        padding-left: 0;
     }
 }
