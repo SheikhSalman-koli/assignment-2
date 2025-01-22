@@ -93,14 +93,9 @@ header,.cards,.parent{
 
 /* main */
 main{
-    margin: 60px 0 ;
-   
-   
-}
-.sec-1,.sec-3{
+    margin: 60px auto 0;
+    background-image: url(../assets/bg.png);
     max-width: 1440px;
-    margin: 0 auto;
-    background-image: url(assets/elementary.png);
 }
 .sec-1 h2{
     text-align: center;
@@ -118,7 +113,6 @@ main{
 .card{
     text-align: center;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
-   
     border-radius: 18.86px;
     padding: 53px 40.86px;
 }
@@ -183,9 +177,9 @@ main{
 
 /* .sec-3 */
 .sec-3{
-    margin-top: 60px;
-    background: linear-gradient(to top,rgb(255, 238, 208)0%,rgba(255, 255, 255, 1)100%);
-    
+    max-width: 1440px;
+    margin: 60px auto 0;
+    background: linear-gradient(to top,rgb(255, 240, 215),rgba(255, 255, 255, 1));
 }
 .parent{
     display: grid;
@@ -199,6 +193,9 @@ main{
 .align-center{
     text-align: center;
     margin: 80px 0;
+    font-size: 46px;
+    font-weight: bold;
+    color: #000000;
 }
 .child-1{
     background-color:#FFFFFF;
@@ -266,3 +263,52 @@ div>button{
     padding: 10px 47px;
     margin: 40px 0;
 }
+
+/* footer */
+footer{
+    max-width:  1440px ;
+    height: auto;
+    margin: 0 auto;
+    background-color: #01ACFD;
+}
+.cont{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 110px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.kids{
+    display: flex;
+}
+.kids h1{
+    font-size:42.14px ;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.box-1 p{
+    font-size:20px ;
+    color: #FFFFFF;
+}
+.box-2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.box-2 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.box-2 ul h4{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+} 
+.box-3 h3{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+}
+
