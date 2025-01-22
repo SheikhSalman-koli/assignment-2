@@ -323,6 +323,15 @@ footer{
     font-weight: bold;
     padding: 0px;
 }
+marquee{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    color:lime;
+}
+.fo{
+    color: red;
+}
 @media screen and (max-width:576px) {
 
     .logo h2,.navbar ul,.btn{
@@ -338,6 +347,9 @@ footer{
     .texts{
         text-align: center;
     }
+    marquee{
+        font-size: 25px;
+    }    
     .fa-solid{
         color:#000000;
         background-color: #FFFFFF;
